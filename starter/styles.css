@@ -1,0 +1,35 @@
+/* Step 1 - Add a nice background */
+body {
+	background-color: #EBD5B3;
+}
+
+.form-control {
+	background-color: #EBD5B3;
+	border-color: black;
+	color: black;
+}
+
+#addNewItem, #hideShow {
+	background-color: darkgrey;
+	color: black;
+	border-color: transparent;
+}
+
+table {
+	color: black;
+}
+
+.hidden
+{
+	visibility: hidden;
+}
+
+.form-control:focus
+{
+	background-color: lightgrey;
+}
+
+td:focus
+{
+	background-color: lightgrey;
+}
